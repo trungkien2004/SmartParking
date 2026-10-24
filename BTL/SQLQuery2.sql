@@ -1,0 +1,8 @@
+SELECT TOP (1000) [LogId]
+      ,[SlotId]
+      ,[LicensePlate]
+      ,[TimeIn]
+      ,[TimeOut]
+      ,[Status]
+      ,[TotalFee]
+  FROM [SmartParkingDB].[dbo].[ParkingLogs]
